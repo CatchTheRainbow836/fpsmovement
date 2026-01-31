@@ -1,0 +1,37 @@
+fpsmovement version 2:
+added inventory system
+
+Controls:
+wasd for movement
+space for jump
+shift for sprint
+tab for inventory
+e for interact
+number keys 1 to 6 for hotbar use
+
+Inventory:
+there is a hotbar that is always visible, pressing the number keys would use any consumables that are in it (note: only the heal potion is considered a consumable)
+clicking on tab frees the cursor and allows you to interact with the full inventory. 
+-click on any item in the inventory to pick it up, click on another one to either stack it (only if the item is stackable, i.e. apples, heal potions, books, and also it does not exceed the max stack number, 99) or to replace it with the one in the slot (i.e. pick up the other one instead)
+-right clicking with a stackable item that has more than 1 singular one in hand onto another slot will place 1 of those items into the slot, which can be stacked
+-items in the inventory can be moved around and stacked as needed (except for the unstackable ones, i.e. the book)
+-clicking on any space outside the inventory with an item in hand will drop the item, right clicking will drop only 1 of the items, these items would be available for pick up
+-there is an extra slot on the right of the main inventory that can store 1 "equip" item, i.e. the helmet
+-any items in hand will be dropped upon closing the inventory
+
+Item Pickup:
+-there is an apple that falls onto the brown block, that serves as an example of an item that could be given in the game. 
+-the items (if stackable) will stack with another stack of the same item in the inventory (if it doesn't exceed the max stack limit)
+-should the item not be able to stack, it will instead be placed in the first available slot
+
+Consumables:
+-as mentioned above, consumables (i.e. the heal potion) can be used either by pressing numbers in the hotbar or right clicking on it whilst it is in the inventory (not in hand)
+-the item will decriment by 1, and it will do its intended effect (there is a health stat that is increased when using the heal potion, but is not shown yet)
+
+Chest:
+-the green block that is on the platform is a chest, which you can interact with by pressing "e" whilst you are within the range
+-the chest inventory will appear, and you can drag items between your inventory and the chest one freely, with the same rules that apply
+-closing the chest inventory saves the items, if any, left in the chest
+-moving too far away from the chest with the chest inventory open will force close it
+
+
