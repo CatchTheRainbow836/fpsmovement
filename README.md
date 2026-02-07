@@ -2,6 +2,7 @@ fpsmovement version 2:
 added inventory system
 
 Controls:
+left click for use
 wasd for movement
 space for jump
 shift for sprint
@@ -35,3 +36,26 @@ Chest:
 -moving too far away from the chest with the chest inventory open will force close it
 
 
+
+fpsmovement3:
+added a weapon and damage system
+
+Inventory:
+there is a a newly added weapon slot below the equip slot that allows the placement of a weapon (i.e. the pistol)
+-placing a weapon in the slot will show its corresponding mesh and also allow for you to use it
+
+Weapon:
+the selected weapon can be used by left clicking
+-the current weapon, a pistol, can deal 1 damage per shot
+-the weapon system works by casting a ray from the camera, not the weapon itself, so it will always hit directly at the crosshair
+-there is a range limit set on the weapon, currently 10 for the pistol
+
+Enemy:
+the enemy is another capsule:
+-it has a max health of 10, so can survive 10 shots from the pistol before dissappearing
+-this enemy is universal, uses resources to load so it can take on any shape and any health or defense as needed
+
+Plans for update 3.1:
+-addd a projectile for the weapon when shooting
+-add reload and a max load limit to the weapon
+-add consumable bullets to inventory and consume when used
