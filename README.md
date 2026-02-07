@@ -59,3 +59,13 @@ Plans for update 3.1:
 -addd a projectile for the weapon when shooting
 -add reload and a max load limit to the weapon
 -add consumable bullets to inventory and consume when used
+
+fpsmovement3.1:
+Weapon:
+added recoil
+-also added sfx when firing, and a bullet hole where hit
+-some visual and performance changes
+
+Inventory: 
+added bullet consumables
+-there are now different bullet types for different weapons
