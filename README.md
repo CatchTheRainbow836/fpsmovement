@@ -69,3 +69,16 @@ added recoil
 Inventory: 
 added bullet consumables
 -there are now different bullet types for different weapons
+
+fpsmovement4:
+World:
+-added some obstacles for testing
+-enabled navigation mesh
+
+Bots:
+-the "enemies" can now move on their own, and will move randomly along the navigation network until it sees the player
+-it will then shoot at the player, until the player is no longer visible
+-there is an accuracy meter that can be set
+-uses the same visuals as the player
+-detects when the player is hit, but there is no health system yet, so it only prints "hit player" currently
+
