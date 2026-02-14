@@ -1,14 +1,20 @@
-fpsmovement version 2:
-added inventory system
-
-Controls:
+CONTROLS:
 left click for use
 wasd for movement
 space for jump
 shift for sprint
+control for crouch
 tab for inventory
 e for interact
+r for reload
 number keys 1 to 6 for hotbar use
+
+NOTE: the gun currently lacks a reloading animation, so when there are no bullets loaded yet (e.g. at the start of the game), pressing reload or firing would reload the gun, where you have to wait a short momenent before you can shoot. This is intentional and is not a bug.
+
+
+
+fpsmovement version 2:
+added inventory system
 
 Inventory:
 there is a hotbar that is always visible, pressing the number keys would use any consumables that are in it (note: only the heal potion is considered a consumable)
@@ -81,4 +87,17 @@ Bots:
 -there is an accuracy meter that can be set
 -uses the same visuals as the player
 -detects when the player is hit, but there is no health system yet, so it only prints "hit player" currently
+
+fpsmovement5:
+World:
+-combined with maze
+-randomly spawns some enemies after the previous ones have died
+
+Weapon:
+-some visual improvements
+-added bobbing and idling and swaying
+
+Player: 
+-added crouching
+
 
