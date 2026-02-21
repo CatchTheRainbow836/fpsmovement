@@ -100,4 +100,9 @@ Weapon:
 Player: 
 -added crouching
 
+fpsmovement6:
+Weapon:
+-added grenades and swords
 
+Player:
+-completed state machine for both movement and weapons
