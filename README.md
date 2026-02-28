@@ -111,3 +111,7 @@ fpsmovement6.1:
 Weapon:
 -enabled switching of weapon directly from the hotbar by pressing numbers
 -added a few qol updates
+
+fpsmovement7:
+World:
+-added a new elevator and maze regeneration system
