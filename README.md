@@ -106,3 +106,8 @@ Weapon:
 
 Player:
 -completed state machine for both movement and weapons
+
+fpsmovement6.1:
+Weapon:
+-enabled switching of weapon directly from the hotbar by pressing numbers
+-added a few qol updates
