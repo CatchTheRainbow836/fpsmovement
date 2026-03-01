@@ -115,3 +115,8 @@ Weapon:
 fpsmovement7:
 World:
 -added a new elevator and maze regeneration system
+
+fpsmovement8:
+Enemy:
+-modualized
+-default enemy created, preparation for specialized enemy behaviour
