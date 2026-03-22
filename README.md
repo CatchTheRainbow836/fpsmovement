@@ -127,3 +127,11 @@ Enemy:
 
 World:
 -finished boss arena logic
+
+fpsmovement9.1:
+Weapon:
+-added a set of 24 weapons and ammo
+-refined weaponary system
+
+World:
+-added a chest directly above (0,0) containing the new set of weapons and ammo
