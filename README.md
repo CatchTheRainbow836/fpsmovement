@@ -120,3 +120,10 @@ fpsmovement8:
 Enemy:
 -modualized
 -default enemy created, preparation for specialized enemy behaviour
+
+fpsmovement9:
+Enemy:
+-added Rustworks enemy set
+
+World:
+-finished boss arena logic
