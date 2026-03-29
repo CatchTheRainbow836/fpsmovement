@@ -135,3 +135,13 @@ Weapon:
 
 World:
 -added a chest directly above (0,0) containing the new set of weapons and ammo
+
+fpsmovement9.2:
+Consumables:
+-added a set of 16 consumables
+
+Equipment: 
+-added a set of 17 equipments
+
+Player:
+-added death 
