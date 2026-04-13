@@ -150,3 +150,12 @@ Equipment:
 
 Player:
 -added death 
+
+fpsmovement10:
+Enemy:
+-added Flood Sewers enemy set
+-added Smoldering Tunnels enemy set
+-added Sun Scorched Labyrinth enemy set
+
+World:
+-added a shop
